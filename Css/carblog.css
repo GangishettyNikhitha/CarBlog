@@ -1,0 +1,38 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#bg{
+    width: 100%;
+    height: 130px;
+    background-image: url(../asset/images/car.png), url(../asset/images/Spanner.png),url(../asset/images/bg.jpeg);
+    background-size: 80px,20%,100%;
+    background-position:bottom left, top right;
+    background-repeat: no-repeat;
+    transition: background-size 1s,background-position 1s;
+}
+#gear{
+    background-size: 100%;
+    transition: rotate 2s;
+    margin-top: -1500px;
+}
+#bg:hover #gear{
+    rotate: 360deg;
+}
+#bg:hover{
+    background-size: 80px,15%,120%;
+    background-position: bottom right, top right,0px -13px;
+}
+#heading{
+    color: whitesmoke;
+    font-size: 20px;
+    padding-top: 50px;
+    transition: font-size 2s;
+    margin-left: 90px;
+}
+#bg:hover #heading{
+    font-size: 25px;
+}
+
+
+
